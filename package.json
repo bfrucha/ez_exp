@@ -1,16 +1,16 @@
 {
   "name": "ez_exp",
-  "version": "1.1.1",
-  "description": "This module helps to code experiments by providing tools to read and write experimental data.",
+  "version": "1.1.2",
+  "description": "This node module helps an experimenter code experiments by providing simple ways to read, record and save experimental data.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "to report"
+    "url": "https://github.com/bfrucha/ez_exp.git"
   },
-  "author": "Bruno Fruchard, Marc Teyssier",
+  "author": "Bruno Fruchard",
   "license": "ISC",
   "dependencies": {
     "fs": "0.0.1-security"

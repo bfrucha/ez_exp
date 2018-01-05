@@ -1,7 +1,8 @@
-var exp = require('ez_exp/experiment.js');
-module.exports.enums = require('ez_exp/enum.js');
+var fs = require('fs');
+var ez_exp = eval(fs.readFileSync('lib/experiment.js', 'utf8'));
+module.exports.enums = eval(fs.readFileSync('lib/enum.js', 'utf8'));
 
-module.exports.loadExperiment = exp.loadExperiment;
+module.exports.loadExperiment = Experiment.loadExperiment;
 
 module.exports.test = function () {
   var t1 = exp.createTrial(['1','2']);
