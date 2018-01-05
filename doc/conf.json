@@ -1,0 +1,11 @@
+{
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./doc",
+        "recurse": true,
+        "template": "/usr/local/lib/node_modules/ink-docstrap/template/"
+    },
+    "templates": {
+      "sort": false
+    }
+}

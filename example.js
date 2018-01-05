@@ -2,7 +2,7 @@ eval(require('fs').readFileSync(__dirname+'/lib/experiment.js', 'utf8'));
 
 // create a new experiment object
 // parameters given are the path to the parameter file, the name of the current participant and the name of the column where to find participant ids
-var experiment = Experiment.loadExperiment(__dirname+'/example_data/exp_parameters.csv', 'user-1', 'Participant');
+var experiment = EzExp.loadExperiment(__dirname+'/example_data/exp_parameters.csv', 'user-1', 'Participant');
 
 // default path to record data is 'results_[participant ID].csv'
 experiment.setOutputPath(__dirname+'/example_data/results_user-1.csv');
