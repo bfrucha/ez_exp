@@ -10,7 +10,7 @@ An example is provided in the module hierarchy. You can run it using the command
 var ez_exp = require('ez_exp'); // this line is different in the example file because libraries have to be without the require keyword
 ```
 
-The interface used to interact with the EzExp module can be instantiated using the *loadExperiment* function. The parameters are the *path* to the configuration file, the user ID, and the column name where to find the participant ID in the csv configuration file. The number of the current trial to start with can also be provided, which is especially useful in case of recovery from a crash. By default, the first trial is loaded.
+The interface used to interact with the EzExp module can be instantiated using the *loadExperiment* function. The parameters are the *path* to the configuration file, the user ID, and the column name where to find the participant ID in the csv configuration file. The number of the current trial to start with can also be provided, which is especially useful in case of recovery from a crash. The configuration file and first trial are loaded automatically.
 ```javascript
 var experiment = ez_exp.loadExperiment('example_data/exp_parameters.csv', 'user-1', 'Participant');
 ```
@@ -29,11 +29,9 @@ Var_A,Var_B,Var_C,Participant
 2,3,1,user-2
 ```
 
-
 Information relative to the current trial can be accessed easily.
 
 ```javascript
-experiment.loadNextTrial(); // load information for the next trial (i.e. first trial in our case)
 var a = experiment.getParameterData('Var_A'); // retrieve information for Var_A column (i.e. 2 in our case)
 experiment.startTrial(); // start the main timer of the trial to record the task completion time
 ```
