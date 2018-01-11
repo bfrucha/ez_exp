@@ -10,7 +10,7 @@ console.log('('+(header.length==4)+') Header of configuration file is of length 
 console.log('('+(pdata.length==4)+') Data of first trial is of length 4: '+pdata);
 console.log('All columns can be accessed correctly: ');
 var er = ['2','1','3','user-1'];
-for(var i in header) { console.log( '('+(exp.getParameterData(header[i])==er[i])+') '+header[i]+' = '+exp.getParameterData(header[i])); }
+for(var i in header) { console.log('('+(exp.getParameterData(header[i])==er[i])+') '+header[i]+' = '+exp.getParameterData(header[i])); }
 
 console.log('('+(exp.getTrialCount()==3)+') Number of loaded trials = 3');
 console.log('('+(exp.getCurrentTrialIndex()==0)+') Current trial index = 0');
