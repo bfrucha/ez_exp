@@ -73,3 +73,5 @@ Var_A,Var_B,Var_C,Participant,Success,TaskCompletionTime,InteractionTime
 2,1,3,user-1,true,4007,2003
 ```
 Data from the configuration file are duplicated and the results are saved according to the result and timer headers specified. The TaskCompletionTime column is added by default and contains task completion times of all trials (i.e. time between the start and end of the trial).
+
+A full documentation is available in the git repository under the [doc](https://github.com/bfrucha/ez_exp/tree/master/doc) folder.
