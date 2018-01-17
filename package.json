@@ -1,18 +1,86 @@
 {
-  "name": "ez_exp",
-  "version": "1.1.4",
+  "_args": [
+    [
+      {
+        "raw": "ez_exp@1.1.5",
+        "scope": null,
+        "escapedName": "ez_exp",
+        "name": "ez_exp",
+        "rawSpec": "1.1.5",
+        "spec": "1.1.5",
+        "type": "version"
+      },
+      "/Users/bruno/Documents/Thesis/memspace_svn/projects/CoolMobileInteraction/web"
+    ]
+  ],
+  "_from": "ez_exp@1.1.5",
+  "_id": "ez_exp@1.1.5",
+  "_inCache": true,
+  "_location": "/ez_exp",
+  "_nodeVersion": "6.11.4",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ez_exp-1.1.5.tgz_1515788755486_0.010399529943242669"
+  },
+  "_npmUser": {
+    "name": "bfruchard",
+    "email": "bruno.fruchard@telecom-paristech.fr"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ez_exp@1.1.5",
+    "scope": null,
+    "escapedName": "ez_exp",
+    "name": "ez_exp",
+    "rawSpec": "1.1.5",
+    "spec": "1.1.5",
+    "type": "version"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ez_exp/-/ez_exp-1.1.5.tgz",
+  "_shasum": "8428719bc4deb4c07dd536691c9805ddeea1c228",
+  "_shrinkwrap": null,
+  "_spec": "ez_exp@1.1.5",
+  "_where": "/Users/bruno/Documents/Thesis/memspace_svn/projects/CoolMobileInteraction/web",
+  "author": {
+    "name": "Bruno Fruchard"
+  },
+  "bugs": {
+    "url": "https://github.com/bfrucha/ez_exp/issues"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security"
+  },
   "description": "This node module helps an experimenter code experiments by providing simple ways to read, record and save experimental data.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "8428719bc4deb4c07dd536691c9805ddeea1c228",
+    "tarball": "https://registry.npmjs.org/ez_exp/-/ez_exp-1.1.5.tgz"
+  },
+  "gitHead": "55f8c928a7281543fe0226c88d23ce4c8626aede",
+  "homepage": "https://github.com/bfrucha/ez_exp#readme",
+  "license": "ISC",
   "main": "index.js",
+  "maintainers": [
+    {
+      "name": "bfruchard",
+      "email": "bruno.fruchard@telecom-paristech.fr"
+    }
+  ],
+  "name": "ez_exp",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bfrucha/ez_exp.git"
+  },
   "scripts": {
     "test": "node test.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bfrucha/ez_exp.git"
-  },
-  "author": "Bruno Fruchard",
-  "license": "ISC",
-  "dependencies": {
-    "fs": "0.0.1-security"
-  }
+  "version": "1.1.5"
 }
