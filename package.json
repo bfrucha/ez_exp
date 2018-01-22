@@ -1,6 +1,6 @@
 {
   "name": "ez_exp",
-  "version": "1.1.5",
+  "version": "1.1.7",
   "description": "This node module helps an experimenter code experiments by providing simple ways to read, record and save experimental data.",
   "main": "index.js",
   "scripts": {
