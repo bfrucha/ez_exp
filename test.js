@@ -53,6 +53,10 @@ console.log('('+(data.split('\n')[0]===header)+') Header of the output file corr
 console.log(data);
 fs.unlinkSync(exp2.getOutputPath());
 
+exp.startTrial(); exp.saveResultData("new_result", "blabla");
+exp.cancelTrial();
+console.log('('+(exp.getCurrentTrialState()===EzExp.Enums.TrialState.NotStarted && Object.keys(exp.getResultData()).length===0)+') Trial correctly cancelled');
+
 var timerHeader = ['Timer3','Timer2','Timer1','Timer4'];
 exp2.setTimerHeader(timerHeader);
 exp2.addTimer(timerHeader[2]); exp2.addTimer(timerHeader[1]); exp2.addTimer(timerHeader[0]); exp2.addTimer(timerHeader[3]);
