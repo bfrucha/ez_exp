@@ -3,6 +3,8 @@ Ez Exp
 
 EzExp is a node module that simplifies boring aspect of experiment building: coding. More precisely, it helps you load configuration files in the csv format (created using software like [Touchstone](https://github.com/jdfekete/touchstone-platforms) for example) to run all your participant trials easily, without worrying about back end tasks. An output file in the csv format also containing custom data recorded along the experiment is saved during or at the end of the experiment. Let's learn how to make you earn valuable time.
 
+EzExp was originally coded in Javascript as a [Node.js](https://nodejs.org/en/) module. It was later coded in C# as a [Unity3D](https://unity.com/) Asset. The logic remains the same and the code is very similar in both programming languages. You can find the C# version in the folder `c-sharp/Unity Asset/`.
+
 ### Quick tutorial
 
 An example is provided in the module hierarchy. You can run it using the command *'node node_modules/ez_exp/example.js'*. We'll go through the code contained in the file to show you how the module works. First, the module can be loaded using:
